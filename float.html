@@ -5,17 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Floats</title>
+    <title>Float Property</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        main {
+            font-size: 1.2em;
+            line-height: 1.5rem;
+            text-align: justify;
+
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        .definition {
+            height: 400px;
+            width: 50%;
+            background-color: beige;
+            float: left;
+            padding: .5rem;
+        }
+
+        .values {
+            height: 400px;
+            width: 50%;
+            background-color: coral;
+            float: right;
+            padding: .5rem;
+        }
+
+        img {
+            height: 400px;
+            width: 100%;
+            float: none;
+        }
+
+        footer {
+            height: 100px;
+            clear: both;
+        }
+
+        cite {
+            align-items: center;
+        }
     </style>
 </head>
 
 <body>
-    <h1>The float property</h1>
     <main>
+        <h1>The float property</h1>
         <div class="definition">
-            <h2>Floats</h2>
+            <h2>When to use the float</h2>
             <p>
                 Block elements always appeared vertically one after another, effectively
                 limiting us to a single-column layout.
@@ -60,7 +114,9 @@
                 That is the right side with ltr scripts, and the left
                 side with rtl scripts.
             </p>
-            <img src="image/float.jpg" alt="ballons in the air" width="1280" height="854">
+        </div>
+        <div class="image">
+            <img src="image/float.jpg" alt="ballons in the air" width="" height="">
         </div>
     </main>
     <footer>
